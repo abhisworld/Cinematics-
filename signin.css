@@ -1,0 +1,59 @@
+*{margin: 0;padding: 0;
+   
+}
+.signinn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mainn{
+    background-color: rgb(0, 0, 0);
+    margin: 0 0 10px 0;
+    color: white;
+width: 50vw;
+border-radius: 10px;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ji1{
+color: rgb(0, 0, 0);
+} 
+#ji,#ji2{
+    color: white;
+}
+#ji2{
+    animation: infinite here 1s;
+}
+@keyframes here {
+    from {
+        color: white;
+    }
+    to {
+        color: red;
+    }
+}
+table{ display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+table tr td{
+    padding: 10px;
+}
+table tr td input{
+    width: 200px;
+}
+table tr td button {
+
+padding: 3px 5px;
+background-color: black;
+color: white;
+font-weight:1000;
+font-family: 'Times New Roman', Times, serif;}
+table tr td button:hover{
+    color: red;
+    background-color: rgba(32, 32, 32, 0.966);
+}

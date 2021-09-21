@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cinematics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .A {
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .B {
+            font-size: 5vh;
+            font-weight: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: a 4s 2s infinite;
+            padding: 5px;
+        }
+
+        #Q,
+        #Ti {
+            color: white;
+        }
+
+        @keyframes a {
+            from {
+                font-weight: 1000;
+                left: 0;
+                transform: rotateZ(0deg);
+            }
+
+            to {
+                font-weight: 0;
+                transform: rotateZ(360deg);
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="A">
+        <div class="B">
+            Y
+        </div>
+        <div class="B">
+            O
+        </div>
+        <div class="B">
+            U
+        </div>
+        <div class="B" id="Ti">#</div>
+        <div class="B">
+            A
+        </div>
+        <div class="B">
+            R
+        </div>
+        <div class="B">
+            E
+        </div>
+        <div class="B" id="Q">#</div>
+        <div class="B">
+            S
+        </div>
+        <div class="B">
+            P
+        </div>
+        <div class="B">
+            E
+        </div>
+        <div class="B">
+            C
+        </div>
+        <div class="B">
+            I
+        </div>
+        <div class="B">
+            A
+        </div>
+        <div class="B">
+            L
+        </div>
+        <div class="B">!</div>
+    </div>
+
+</body>
+
+</html>
